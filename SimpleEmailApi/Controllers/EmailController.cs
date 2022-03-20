@@ -16,7 +16,7 @@ namespace SimpleEmailApi.Controllers
         private readonly IMediator mediatR;
 
         public EmailController(IMediator mediatR)
-        {:""
+        {
             this.mediatR = mediatR;
         }
         [HttpPost]
